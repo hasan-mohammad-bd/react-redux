@@ -69,4 +69,3 @@ const counterReducer = (state=initialCounterState, action) => {
 //4. store -getState(), dispatch(), subscribe()
 
 //create store
-const store = createStoreHook(counterReducer);
