@@ -26,3 +26,17 @@ const Counts = () => {
 };
 
 export default Counts;
+
+
+/* 
+1. state -count : 0
+2. actions - increment, decrement, reset
+3. reducers - increment -> count => count + 1
+            - decrement -> count => count - 1
+            -reset -> count => 0
+4. store
+5. take the store to the provider in index.js
+6. import useSelector 
+7. import useDispatch
+10. use the state and counter to the right place. 
+*/
